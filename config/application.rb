@@ -25,7 +25,7 @@ module DummyApp
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
     EmailVerifier.config do |config|
-      config.verifier_email = "realname@realdomain.com"
+      config.verifier_email = "realname@realdomain1.com"
     end
   end
 end
